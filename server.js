@@ -13,7 +13,7 @@ var init = require('./config/init')(),
  */
 
 // Bootstrap db connection
-var db = mongoose.connect('tingodb:///db');
+var db = mongoose.connect('tingodb://db');
 //var db = mongoose.connect(config.db);
 
 // Init the express application
